@@ -1,13 +1,8 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import "./App.scss";
+import MainRoutes from "./routes/Main/MainRoutes";
 
-const App = () => (
-  <div className="App">
-    <Navbar />
-    <Hero />
-  </div>
-);
+const App = () => {
+  return <MainRoutes />;
+};
 
 export default App;
